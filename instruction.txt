@@ -1,0 +1,14 @@
+Requirements:
+You have to create a backend project with a proper folder structure (controllers, routes, models, middlewares, config). 
+
+The project should manage blog posts with the following APIs:
+
+1. Create Blog Post - POST -  /api/blogs/create, Request body: { title, content, author }, Response: Blog created successfully
+
+2. Read All Blog Posts - GET - /api/blogs, Response: All blogs fetched successfully
+
+3. Read Single Blog Post by ID - GET - /api/blogs/:id, Response: Blog fetched successfully
+
+4. Update Blog Post - PUT - /api/blogs/update/:id, Request body: { title, content }, Response: Blog updated successfully
+
+5. Delete Blog Post - DELETE /api/blogs/delete/:id, Response: Blog deleted successfully
